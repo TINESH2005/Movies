@@ -1,0 +1,28 @@
+.container{
+    float:left;
+    margin: 100px 0 0 250px;
+    width: 70%;
+    height : 450px;
+    display :flex;
+    justify-content:center;
+    gap :10px;
+
+}
+body{
+    background-color: #000a1f;
+    background-image: url(/assests/images.jpeg);
+    background-size: cover;
+    
+}
+.container img{
+    width : 10%;
+    height : 100%;
+    object-fit : cover;
+    border-radius:10px;
+    border : 2px solid rgba(255,255,255,0.4);
+    transition: all ease-in-out 0.5s;
+
+}
+.container img:hover{
+    width:20%;
+}
